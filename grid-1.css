@@ -1,0 +1,40 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.color {
+    margin: 0 auto;
+    margin-bottom: 20px;
+
+    display: grid;
+    background-color: blueviolet;
+    height: 150px;
+    width: 400px;
+    border: 3px solid black;
+    row-gap: 1px;
+    column-gap: 1px;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(8, 1fr);
+}
+
+.orange {
+    background-color: white;
+}
+
+#a,#b,#c,#d,#e,#f,#g,#h,#i,#j{
+    background-color: orange;
+}
+
+.b{
+    background-color: aqua;
+}
+
+.c{
+    background-color: yellow;
+}
+
+.d{
+    background-color: hotpink;
+}
+
